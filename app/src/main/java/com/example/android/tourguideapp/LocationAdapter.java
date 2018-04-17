@@ -16,7 +16,6 @@ import java.util.ArrayList;
 
 public class LocationAdapter extends ArrayAdapter<Location> {
 
-
     public LocationAdapter(Activity context, ArrayList<Location> locations) {
         super(context, 0, locations);
     }
@@ -25,27 +24,38 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
+        ViewHolder holder;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+
+            holder = new ViewHolder();
+            holder.nameTextView = listItemView.findViewById(R.id.name_text_view);
+            holder.descTextView = listItemView.findViewById(R.id.description_text_view);
+            holder.imageView = listItemView.findViewById(R.id.image);
+            listItemView.setTag(holder);
+        } else {
+            holder = (ViewHolder) listItemView.getTag();
         }
 
         Location currentLocation = getItem(position);
 
-        TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
-        nameTextView.setText(currentLocation.getLocationName());
+        holder.nameTextView.setText(currentLocation.getLocationName());
+        holder.descTextView.setText(currentLocation.getDescription());
 
-        TextView descTextView = listItemView.findViewById(R.id.description_text_view);
-        descTextView.setText(currentLocation.getDescription());
-
-        ImageView imageView = listItemView.findViewById(R.id.image);
         if (currentLocation.hasImage()) {
-            imageView.setImageResource(currentLocation.getImageResourceId());
-            imageView.setVisibility(View.VISIBLE);
+            holder.imageView.setImageResource(currentLocation.getImageResourceId());
+            holder.imageView.setVisibility(View.VISIBLE);
         } else {
-            imageView.setVisibility(View.GONE);
+            holder.imageView.setVisibility(View.GONE);
         }
 
         return listItemView;
+    }
+
+    static class ViewHolder {
+        TextView nameTextView;
+        TextView descTextView;
+        ImageView imageView;
     }
 }
 
