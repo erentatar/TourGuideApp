@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@string/image_desc"
+        android:padding="@dimen/padding_width"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="top"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimaryText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:paddingTop="8dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorSecondaryText" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_map"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/image_desc"
+        android:src="@drawable/ic_map" />
+
+</LinearLayout>

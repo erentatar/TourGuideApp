@@ -1,0 +1,201 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=20] -->
+    <string name="app_name">Ankara City Guide</string>
+
+    <!-- Tab name for monuments [CHAR LIMIT=20] -->
+    <string name="location_monuments">Monuments</string>
+
+    <!-- Tab name for museums [CHAR LIMIT=20] -->
+    <string name="location_museums">Museums</string>
+
+    <!-- Tab name for parks [CHAR LIMIT=20] -->
+    <string name="location_parks">Parks</string>
+
+    <!-- Tab name for shopping [CHAR LIMIT=20] -->
+    <string name="location_shopping">Shopping</string>
+
+    <string name="image_desc">image</string>
+
+    <!-- About Ankara -->
+    <string name="city_name">Ankara</string>
+    <string name="city_description">
+        The city of Ankara lies in the center of Anatolia on the eastern edge of the great, high Anatolian Plateau, at an altitude of 850 meters.
+        The province is a predominantly fertile wheat steppe, with forested areas in the north-east. The city was an important cultural, trading,
+        and arts center in Roman times, and an important trading center on the caravan route to the east in Ottoman times. It had declined in
+        importance by the nineteenth century. It again became an important center when Kemal Atatürk chose it as the base from which to direct the
+        War of Independence. By consequence of its role in the war and its strategic position, it was declared the capital of the new Turkish Republic
+        on October 13, 1923.
+    </string>
+    <string name="city_uri">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="city_image">@drawable/city_image</drawable>
+    <string name="city_image_desc">the city image</string>
+
+    <!-- Monuments -->
+    <string name="monument_name_1">Anıtkabir</string>
+    <string name="monument_desc_1">The mausoleum of Mustafa Kemal Atatürk, founder of the Republic of Turkey.</string>
+    <string name="monument_uri_1">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_1">@drawable/monument_image_1</drawable>
+
+    <string name="monument_name_2">Ankara Citadel</string>
+    <string name="monument_desc_2">The foundations of the citadel were laid by the Galatians on a prominent lava outcrop, and completed by the Romans.</string>
+    <string name="monument_uri_2">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_2">@drawable/monument_image_2</drawable>
+
+    <string name="monument_name_3">Roman Theatre</string>
+    <string name="monument_desc_3">The remains, including pro-scene (stage), and scene (backstage), can be seen outside the citadel.</string>
+    <string name="monument_uri_3">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_3">@drawable/monument_image_3</drawable>
+
+    <string name="monument_name_4">Temple of Augustus</string>
+    <string name="monument_desc_4">The temple is in the Ulus quarter of the city.</string>
+    <string name="monument_uri_4">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_4">@drawable/monument_image_4</drawable>
+
+    <string name="monument_name_5">Roman Bath</string>
+    <string name="monument_desc_5">The bath, situated on Çankırı Avenue in Ulus, has all the typical features: cold room, cool room and hot room.</string>
+    <string name="monument_uri_5">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_5">@drawable/monument_image_5</drawable>
+
+    <string name="monument_name_6">Column of Julian</string>
+    <string name="monument_desc_6">This column in Ulus was erected in 362 A.D, probably to commemorate a visit by the Roman Emperor Julian.</string>
+    <string name="monument_uri_6">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_6">@drawable/monument_image_6</drawable>
+
+    <string name="monument_name_7">Monument of the Republic</string>
+    <string name="monument_desc_7">Erected in 1927 in Ulus Square, it is a symbol of the struggle for independence on the part of Atatürk and the Turkish people.</string>
+    <string name="monument_uri_7">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_7">@drawable/monument_image_7</drawable>
+
+    <string name="monument_name_8">Monument to a Secure and Confident Future</string>
+    <string name="monument_desc_8">It bears Atatürk\'s advice: \"Be proud, hardworking, and believe in yourself.\"</string>
+    <string name="monument_uri_8">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_8">@drawable/monument_image_8</drawable>
+
+    <string name="monument_name_9">Victory Monument</string>
+    <string name="monument_desc_9">Erected in 1927 in Zafer Square in the Sıhhıye quarter, it shows Atatürk in uniform.</string>
+    <string name="monument_uri_9">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_9">@drawable/monument_image_9</drawable>
+
+    <string name="monument_name_10">Hatti Monument</string>
+    <string name="monument_desc_10">Erected in 1970\'s in Sıhhıye Square, symbolizes the Hatti gods and commemorates Anatolia\'s earliest known civilization.</string>
+    <string name="monument_uri_10">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="monument_image_10">@drawable/monument_image_10</drawable>
+
+    <!-- Museums -->
+    <string name="museum_name_1">The Ethnography Museum</string>
+    <string name="museum_desc_1">There is a fine collection of folkloric items, as well as artifacts from the Seljuk and Ottoman periods.</string>
+    <string name="museum_uri_1">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="museum_image_1">@drawable/museum_image_1</drawable>
+
+    <string name="museum_name_2">The Painting and Sculpture Museum</string>
+    <string name="museum_desc_2">Houses a rich collection of Turkish art from the late 19th century to the present day.</string>
+    <string name="museum_uri_2">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="museum_image_2">@drawable/museum_image_2</drawable>
+
+    <string name="museum_name_3">The Independence War Museum</string>
+    <string name="museum_desc_3">Located on Ulus Square, originally the first Parliament building (TBMM) of the Republic of Turkey.</string>
+    <string name="museum_uri_3">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="museum_image_3">@drawable/museum_image_3</drawable>
+
+    <string name="museum_name_4">The Museum of the Republic</string>
+    <string name="museum_desc_4">Housed in what was the second parliament building of the Republic.</string>
+    <string name="museum_uri_4">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="museum_image_4">@drawable/museum_image_4</drawable>
+
+    <string name="museum_name_5">The Toy Museum</string>
+    <string name="museum_desc_5">Houses toys of all kinds made of wood, metal, porcelain, paper, etc.</string>
+    <string name="museum_uri_5">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="museum_image_5">@drawable/museum_image_5</drawable>
+
+    <string name="museum_name_6">ODTÜ Museum</string>
+    <string name="museum_desc_6">On the campus of Middle East Technical University has archeological artifacts and ethnographic displays.</string>
+    <string name="museum_uri_6">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="museum_image_6">@drawable/museum_image_6</drawable>
+
+    <!-- Parks -->
+    <string name="park_name_1">Gençlik Park</string>
+    <string name="park_desc_1">Houses an amusement park with a large pond for rowing</string>
+    <string name="park_uri_1">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_1">@drawable/park_image_1</drawable>
+
+    <string name="park_name_2">Harikalar Diyarı</string>
+    <string name="park_desc_2">Claimed to be Biggest Park of Europe inside city borders</string>
+    <string name="park_uri_2">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_2">@drawable/park_image_2</drawable>
+
+    <string name="park_name_3">Göksu Park</string>
+    <string name="park_desc_3">The park area is 50.8 ha (126 acres). It was an unneglected lake until 2003.</string>
+    <string name="park_uri_3">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_3">@drawable/park_image_3</drawable>
+
+    <string name="park_name_4">Kuğulu Park</string>
+    <string name="park_desc_4">Famous for the swans received as a gift from the Chinese government</string>
+    <string name="park_uri_4">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_4">@drawable/park_image_4</drawable>
+
+    <string name="park_name_5">Botanik Park</string>
+    <string name="park_desc_5">It was founded in 1970. The park has a pool, children\'s garden and flower gardens.</string>
+    <string name="park_uri_5">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_5">@drawable/park_image_5</drawable>
+
+    <string name="park_name_6">Altınpark</string>
+    <string name="park_desc_6">Also a prominent exposition/fair area</string>
+    <string name="park_uri_6">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_6">@drawable/park_image_6</drawable>
+
+    <string name="park_name_7">Seğmenler Park</string>
+    <string name="park_desc_7">You can sit on the benches in the park, read your book / journal, and enjoy the fresh air.</string>
+    <string name="park_uri_7">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="park_image_7">@drawable/park_image_7</drawable>
+
+    <!-- Shopping -->
+    <string name="shopping_name_1">Armada</string>
+    <string name="shopping_desc_1">Besides shopping there are 11 movie theaters and 20 restaurants and cafés.</string>
+    <string name="shopping_uri_1">geo:39.9128841,32.8096751,15z?q=armada+shopping+and+business+center</string>
+    <drawable name="shopping_image_1">@drawable/shopping_image_1</drawable>
+
+    <string name="shopping_name_2">Panora</string>
+    <string name="shopping_desc_2">Another big shopping mall in Ankara where you will find not only unique international brands but also national brands.</string>
+    <string name="shopping_uri_2">geo:39.8481111,32.832719,15z?q=Panora+Shopping+Center</string>
+    <drawable name="shopping_image_2">@drawable/shopping_image_2</drawable>
+
+    <string name="shopping_name_3">Ankamall</string>
+    <string name="shopping_desc_3">A huge and central mall in Ankara and easily accessible as it is next to the Akkopru metro.</string>
+    <string name="shopping_uri_3">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_3">@drawable/shopping_image_3</drawable>
+
+    <string name="shopping_name_4">Taurus</string>
+    <string name="shopping_desc_4">Beautiful new mall at a central Ankara location and state of the art accessibility for disabled.</string>
+    <string name="shopping_uri_4">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_4">@drawable/shopping_image_4</drawable>
+
+    <string name="shopping_name_5">Cepa</string>
+    <string name="shopping_desc_5">It is a nice shopping mall were you can find almost everything. Many Turkish as well as international trademarks could be found.</string>
+    <string name="shopping_uri_5">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_5">@drawable/shopping_image_5</drawable>
+
+    <string name="shopping_name_6">Kentpark</string>
+    <string name="shopping_desc_6">A very modern shopping mall that provides everything from fashion clothing and shoes, to jewellery, electronics, and restaurants.</string>
+    <string name="shopping_uri_6">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_6">@drawable/shopping_image_6</drawable>
+
+    <string name="shopping_name_7">Gordion</string>
+    <string name="shopping_desc_7">Located a bit far from the city center but its easily accessible by a 30–40 min ride on subway.</string>
+    <string name="shopping_uri_7">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_7">@drawable/shopping_image_7</drawable>
+
+    <string name="shopping_name_8">Arcadium</string>
+    <string name="shopping_desc_8">You can go by metro in station Koru. All the stores under one roof with lots of great eateries and movie theaters.</string>
+    <string name="shopping_uri_8">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_8">@drawable/shopping_image_8</drawable>
+
+    <string name="shopping_name_9">Podium</string>
+    <string name="shopping_desc_9">You will find not only unique international brands but also national brands.</string>
+    <string name="shopping_uri_9">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_9">@drawable/shopping_image_9</drawable>
+
+    <string name="shopping_name_10">NataVega</string>
+    <string name="shopping_desc_10">This is not just a shopping mall with a wide variety of stores but also houses an amazing aquarium.</string>
+    <string name="shopping_uri_10">geo:39.9035553,32.6223377,15z?q=Ankara</string>
+    <drawable name="shopping_image_10">@drawable/shopping_image_10</drawable>
+</resources>
